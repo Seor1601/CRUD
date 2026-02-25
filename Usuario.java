@@ -9,9 +9,30 @@ public class Usuario {
         this.email = email;
     }
 
+    // getters
+    public int getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    // setters
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     @Override
     public String toString() {
         return id + "," + nombre + "," + email;
     }
-}
-      
+}  
